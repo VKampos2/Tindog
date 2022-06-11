@@ -1,0 +1,186 @@
+/*************section title************/
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+  }
+
+h3 {
+    padding-top: 3%;
+    font-size: 1.5rem;
+    font-weight:bold;
+  }
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+.conteiner-fluid {
+  padding: 3% 15%;
+  position: relative;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+/*************navigation bar **************/
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/**************Download buttons**************/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/***********Title Image*****************/
+.iphone {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 15%;
+}
+.title-image {
+  position: relative;
+}
+
+/************Features Section***********/
+
+#features {
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  background-color: white;
+  position: relative;
+}
+
+.features {
+  text-align: center;
+}
+
+.fa-solid {
+  color: #efb172;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.texto1 {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #efb172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-text1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.pebbles {
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* Press */
+#press {
+  background-color: #efb172;
+  text-align: center;
+  padding: 2%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 3% 2%
+}
+
+/* Pricing section  */
+
+#pricing {
+  padding: 100px;
+}
+
+.header {
+  font-size: 2.5rem;
+}
+
+.pricing-text {
+  padding: 2%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.dog-prices {
+  padding: 7% 15;
+  text-align:center;
+}
+
+/* cta section */
+#cta {
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 0 10% 5%
+}
+
+.bottom-text {
+  padding: 7% 15% 3%;
+  font-family: Montserrat-black;
+  color: white;
+  font-size: 3rem;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.bottom-down {
+  margin-left: 2%;
+}
+
+.foot {
+  padding: 5% 0 2%;
+  margin-left: 15px;
+}
+
+
+@media (max-width:1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
